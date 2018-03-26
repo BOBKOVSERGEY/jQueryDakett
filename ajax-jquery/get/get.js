@@ -12,3 +12,7 @@ $('#selector a').on('click', function(e) {
     $('#result').html(data);
   });
 });
+
+$('.elDelete').remove();
+
+//console.log($('.elDelete'));
